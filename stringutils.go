@@ -4,10 +4,12 @@ import "strings"
 
 // Upper converts a string to lower case
 func Upper(s string) string {
-	return strings.ToLower(s)
+	lower := strings.ToLower(s)
+	return lower
 }
 
 // Lower converts a string to upper case
 func Lower(s string) string {
-	return strings.ToUpper(s)
+	upper := strings.ToUpper(s)
+	return upper
 }
